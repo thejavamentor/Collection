@@ -1,0 +1,3 @@
+        List<Integer> list = new ArrayList( List.of(23,5,5,23,2,5));
+        Collection.sort(list);
+        return list.stream().mapToInt(i ->nums[i]).toArray();
